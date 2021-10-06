@@ -2,6 +2,16 @@
 /* propiedad: color */
 /* valor: white */
 /* html{color:white} */
+
+:root{
+  font-size: 16px;
+  --font-size: 16px; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   color:rgb(33, 33, 33)
 }
@@ -10,9 +20,6 @@ a {
   color:rgb(33, 33, 33)
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 summary {
   cursor: pointer;
@@ -26,4 +33,34 @@ pre {
 pre code {
   font-size: 1rem;
   font-weight: 700;
+}
+
+h1{
+  font-size: 60px;
+  font-size: 3.75em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+header{
+  font-size: 14px;
+}
+
+header a{
+  text-decoration: none;
+  color: #616161;
+}
+
+header a:hover {
+  color: #212121;
+}
+
+nav details summary {
+  font-weight: bold;
 }
