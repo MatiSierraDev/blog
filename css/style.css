@@ -4,8 +4,10 @@
 /* html{color:white} */
 
 :root{
-  font-size: 16px;
-  --font-size: 16px; 
+  --font-size: 16px;
+  --color-gray-30:rgb(33, 33, 33);
+  --color-gray-20: rgb(33, 36, 41);
+  --color-gray-10: rgb(97, 97, 97);
 }
 
 html {
@@ -13,13 +15,12 @@ html {
 }
 
 body{
-  color:rgb(33, 33, 33)
+  color: var(--color-gray-30);
 }
 
 a {
-  color:rgb(33, 33, 33)
+  color:var(--color-gray-30);
 }
-
 
 summary {
   cursor: pointer;
@@ -49,16 +50,18 @@ h3{
 }
 
 header{
+  --color-gray-10:red;
   font-size: 14px;
+  color: var(--color-gray-10);
 }
 
 header a{
   text-decoration: none;
-  color: #616161;
+  color: var(--color-gray-10);
 }
 
 header a:hover {
-  color: #212121;
+  color: var(--color-gray-30);
 }
 
 nav details summary {
